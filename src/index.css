@@ -1,0 +1,13 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  cursor: none;
+}
+
+color{
+  color: #e1f7ff;
+}
