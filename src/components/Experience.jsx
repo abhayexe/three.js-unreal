@@ -15,7 +15,7 @@ import { PostProcessing } from "./PostProcessing.tsx";
 import { Effects } from "./Effects.tsx";
 
 const maps = {
-  newyork: {
+  nyc: {
     scale: 2,
     position: [0, 0, 0],
   },
@@ -39,7 +39,7 @@ const maps = {
 
 export const Experience = () => {
   const shadowCameraRef = useRef();
-  const [map, setMap] = useState("newyork");
+  const [map, setMap] = useState("nyc");
 
   return (
     <>
